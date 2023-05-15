@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+
+.PendingContracts_Container {
+  background: #181818;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.PendingContracts_Container p {
+  margin: 0px;
+}
+
+.PendingContracts_Container_Table {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  text-align: left;
+}
+
+.PendingContracts_Container_Table table {
+  width: 100%;
+  height: 100%;
+}
+
+.PendingContractsTable_Td_ButtonCheck button {
+  width: 43px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NOMBRES DE TABLAS */
+.PendingContracts_Container_Table th {
+  border: none;
+}
+
+/* INFORMACION DE LAS TABLAS */
+
+.PendingContracts_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.PendingContracts_Container button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  color: #b6b6b6;
+}
+
+.PendingContracts_Container td img {
+  margin-right: 10px;
+}
+
+.PendingContracts_Container td div {
+  display: flex;
+}
+
+.PendingContracts_Container .progress {
+  margin-top: 8px;
+  width: 35%;
+  height: 5px;
+  background-color: #e9ecef30;
+}
+
+.PendingContracts_Container .ProgressBar_Center {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.PendingContracts_Container .ProgressBar_Center p {
+  height: 30px;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.MarketCap_Div {
+  width: 30%;
+}
+
+.PendingContracts_Container .td_Center {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.PendingContracts_Container .td_Negative {
+  color: red;
+}
+
+.PendingContracts_Container .td_Positive {
+  color: green;
+}
+
+.PendingContracts_Container .LastContracts_ApprovedDot {
+  transform: scale(2);
+}
+
+.PendingContracts_Container .LastContracts_ApprovedDot.danger {
+  color: #ff0000;
+  width: 20px;
+  height: 30px;
+  transform: scale(2);
+}
+
+.PendingContracts_Container .LastContracts_ApprovedDot.warning {
+  color: #ffff00;
+  width: 20px;
+  height: 30px;
+}
+
+.PendingContracts_Container .LastContracts_ApprovedDot.success {
+  color: #008000;
+  width: 20px;
+  height: 30px;
+}
+
+.PendingContracts_Container_Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PendingContracts_Container_Buttons button {
+  margin-left: 17px;
+  width: 119px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.PendingContracts_Container_Buttons button:focus {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: #222121;
+}
+
+.PendingContracts_Container_Buttons {
+  display: flex;
+
+  .containerSwitch {
+    .loading-true {
+      cursor: progress;
+    }
+    margin-right: 5%;
+    h5 {
+      margin-top: 5%;
+      margin-right: 5%;
+      white-space: nowrap;
+    }
+
+    .toggler {
+      width: 52px;
+      margin: 50px auto;
+      margin-left: 2%;
+    }
+
+    .toggler input {
+      display: none;
+    }
+
+    .toggler label {
+      display: block;
+      position: relative;
+      width: 72px;
+      height: 36px;
+      border: 1px solid #000000;
+      border-radius: 36px;
+      background: hsla(180, 8%, 90%, 0.2);
+      cursor: pointer;
+    }
+
+    .toggler label::after {
+      display: block;
+      border-radius: 100%;
+      background-color: #d7062a;
+      content: "";
+      animation-name: toggler-size;
+      animation-duration: 0.15s;
+      animation-timing-function: ease-out;
+      animation-direction: forwards;
+      animation-iteration-count: 1;
+      animation-play-state: running;
+    }
+
+    .toggler label::after,
+    .toggler label .toggler-on,
+    .toggler label .toggler-off {
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      width: 26px;
+      height: 26px;
+      transform: translateY(-50%) translateX(-50%);
+      transition: left 0.15s ease-in-out, background-color 0.2s ease-out, width 0.15s ease-in-out, height 0.15s ease-in-out, opacity 0.15s ease-in-out;
+    }
+
+    .toggler input:checked + label::after,
+    .toggler input:checked + label .toggler-on,
+    .toggler input:checked + label .toggler-off {
+      left: 75%;
+    }
+
+    .toggler input:checked + label::after {
+      background-color: #50ac5d;
+      animation-name: toggler-size2;
+    }
+
+    .toggler .toggler-on,
+    .toggler .toggler-off {
+      opacity: 1;
+      z-index: 2;
+    }
+
+    .toggler input:checked + label .toggler-off,
+    .toggler input:not(:checked) + label .toggler-on {
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+
+    .toggler .path {
+      fill: none;
+      stroke: #fefefe;
+      stroke-width: 7px;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+
+    @keyframes toggler-size {
+      0%,
+      100% {
+        width: 26px;
+        height: 26px;
+      }
+
+      50% {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    @keyframes toggler-size2 {
+      0%,
+      100% {
+        width: 26px;
+        height: 26px;
+      }
+
+      50% {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .PendingContracts_Container {
+    height: 100%;
+    width: 100vw;
+    padding-top: 30px;
+  }
+
+  .PendingContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .PendingContracts_Container_Buttons {
+    display: inline;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .PendingContracts_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .PendingContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+  .PendingContracts_Row_ContainerTable {
+    overflow-x: scroll;
+  }
+}

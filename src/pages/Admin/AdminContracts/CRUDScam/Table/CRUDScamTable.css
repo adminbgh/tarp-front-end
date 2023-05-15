@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+
+/* NOMBRES DE TABLAS */
+
+/* INFORMACION DE LAS TABLAS */
+
+.CRUDScamTable_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.CRUDScamTable_Container button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  color: #b6b6b6;
+}
+
+.CRUDScamTable_Container td img {
+  margin-right: 10px;
+}
+
+.CRUDScamTable_Container td div {
+  display: flex;
+}
+
+.CRUDScamTable_Container .progress {
+  margin-top: 8px;
+  width: 35%;
+  height: 5px;
+  background-color: #e9ecef30;
+}
+
+.CRUDScamTable_Container .Network_Center {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.CRUDScamTable_Container .Network_Center p {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.CRUDScamTable_ContractAddress_Div {
+  width: 70%;
+  color: rgba(255, 0, 0, 0.738);
+}
+
+.CRUDScamTable_Container .td_Center {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.CRUDScamTable_Container .td_Negative {
+  color: red;
+}
+
+.CRUDScamTable_Container .td_Positive {
+  color: green;
+}
+
+.CRUDScamTable_Container .LastContracts_ApprovedDot {
+  transform: scale(2);
+}
+
+.CRUDScamTable_Container .LastContracts_ApprovedDot.danger {
+  color: #ff0000;
+  width: 20px;
+  height: 30px;
+  transform: scale(2);
+}
+
+.CRUDScamTable_Container .LastContracts_ApprovedDot.warning {
+  color: #ffff00;
+  width: 20px;
+  height: 30px;
+}
+
+.CRUDScamTable_Container .LastContracts_ApprovedDot.success {
+  color: #008000;
+  width: 20px;
+  height: 30px;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .CRUDScamTable_Container {
+    height: 100%;
+    width: 100vw;
+    padding-top: 30px;
+  }
+
+  .CRUDScamTable_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .CRUDScamTable_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .CRUDScamTable_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,96 @@
+.AlertModal_Container {
+  z-index: 3;
+}
+
+.AlertModal_ContainerModal .modal-content {
+  border-radius: 6px;
+}
+
+.Modal_Container_Alert {
+  box-sizing: border-box;
+  width: 100%;
+  height: 214px;
+  background: #b6b6b6;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 6px;
+}
+
+.AlertModal_Container_Text {
+  text-align: center;
+}
+
+.AlertModal_Container_Text {
+  /* Text */
+
+  margin-top: 20px;
+
+  /* Paragraph/Large/Regular */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  color: #222121;
+}
+
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+/* ---BUTTON---- */
+
+.AlertModal_Contai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.AlertModal_Container_Button button {
+  margin-right: 20px;
+}
+
+.AlertModal_Container_Button #ButtonDontSave {
+  /* Button */
+
+  box-sizing: border-box;
+
+  width: 119px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  white-space: nowrap;
+  border: none;
+
+  color: #222121;
+}
+
+.AlertModal_Container_Button #ButtonSave {
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 119px;
+  height: 44px;
+  border: none;
+  background: #222121;
+  border-radius: 6px;
+  /* identical to box height, or 143% */
+  align-items: center;
+  text-align: center;
+  color: #b6b6b6;
+}

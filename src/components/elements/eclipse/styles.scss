@@ -1,0 +1,10 @@
+@import "../../../assets/variables.scss";
+
+.eclipse {
+  color: white;
+  position: absolute;
+  z-index: -0.5;
+  background: rgba(34, 167, 242, 0.75);
+
+  filter: blur(870px);
+}

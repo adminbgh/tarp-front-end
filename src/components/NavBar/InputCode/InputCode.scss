@@ -1,0 +1,105 @@
+@import "../../../assets/variables.scss";
+
+.code-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.code-label {
+  margin-bottom: 16px;
+}
+.code-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.code-inputs input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+  height: 60px;
+  width: 40px;
+  border-radius: 6px;
+  margin: 0 4px;
+  border: 2px solid #4f5b66;
+  font-size: 38px;
+}
+.code-inputs input:focus {
+  outline: none;
+}
+.code-inputs input {
+  margin-right: 22px;
+}
+
+.code-inputs input {
+  width: 55px;
+  height: 85px;
+  background-color: white;
+}
+
+.code-inputs input::placeholder {
+  opacity: 0.5;
+  font-size: 28px;
+}
+
+.NavBar_Modal_Body_VerificationCode {
+  width: 100%;
+}
+.NavBar_Modal_Body_VerificationCode button {
+  width: 100%;
+  background: #22a7f2;
+  border: 1px solid #22a7f2;
+  color: $primary;
+}
+
+.NavBar_Modal_Body_VerificationCode button:hover {
+  width: 100%;
+  background: #22a7f2;
+  border: 1px solid #22a7f2;
+  color: $primary;
+}
+
+.NavBar_Modal_Body_VerificationCode button:disabled {
+  background: #9ca3af;
+  border-radius: 6px;
+  color: #6b7280;
+}
+
+.code-inputs.error input {
+  border: 2px solid red;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

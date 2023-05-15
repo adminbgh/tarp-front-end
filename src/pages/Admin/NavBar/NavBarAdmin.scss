@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import "../../../assets/variables.scss";
+
+.me-auto.navbar-nav {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavbarAdmin {
+  top: -15px;
+  width: 100%;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  height: 100px;
+}
+
+.NavbarAdmin.false {
+  position: relative;
+  top: -10px;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.075);
+}
+.NavbarAdmin.active {
+  position: relative;
+  top: -10px;
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+}
+
+.NavBarAdmin_Logo {
+  padding-top: 25px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.NavBarAdmin_Logo a {
+  color: white;
+  text-decoration: none;
+}
+.NavBarAdmin_Logo a h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.NavBarAdmin_Logo img {
+  width: 20%;
+  margin-right: 20px;
+  float: left;
+}
+
+.NavBarAdmin_Links {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+}
+.NavBarAdmin_Links a {
+  white-space: nowrap;
+}
+
+.me-auto.navbar-nav {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.NavBarAdmin_SignUp {
+  color: black !important;
+  background-color: $secondary;
+  width: 124px;
+  height: 38px;
+  left: 1097px;
+  border-radius: 6px;
+}
+
+.NavBarAdmin_Links a {
+  margin-right: 40px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.NavBarAdmin_Links p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  font-feature-settings: "salt" on;
+  margin-top: 16px;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Notificaciones NavBar */
+.NavBarAdminLogin_ProfileName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavBarAdmin_NotificationContainer {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 50px;
+  position: relative;
+}
+
+#NavBarLogin_IconBell {
+  fill: #ffffff;
+  position: absolute;
+  margin-right: 10px;
+}
+#NavBarLogin_IconCircle {
+  fill: #ff0000;
+  cursor: pointer;
+  position: relative;
+  width: 10px;
+  bottom: 5px;
+  left: 10px;
+}
+
+.BellNotificationActive {
+  animation: BellShake 1s;
+  animation-iteration-count: 4;
+  cursor: pointer;
+}
+
+.BellNotificationFalse {
+  display: none;
+}
+
+.NavBarAdmin_BoxContainer_Notifications {
+  width: 300px;
+  height: 500px;
+  background: $primary;
+  border-radius: 6px;
+  overflow-y: scroll;
+}
+.NavBarAdmin_BoxContainer_Notifications::-webkit-scrollbar {
+  width: 7px;
+}
+
+.NavBarAdmin_BoxContainer_Notifications::-webkit-scrollbar-thumb {
+  background-color: $secondary;
+}
+
+.NavBarAdmin_Container_Notifications {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.NavBarAdmin_ContainerChildren_Notifications {
+  width: 90%;
+  margin-top: 20px;
+}
+
+@keyframes BellShake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* SEARCHBAR NAVBAR */ /* SEARCHBAR NAVBAR */ /* SEARCHBAR NAVBAR */
+
+.NavbarAdmin .form input {
+  color: white;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  padding-right: 20%;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.NavbarAdmin .form input::placeholder {
+  font-weight: 500 !important;
+  color: white;
+}
+
+.NavbarAdmin .form .fa-search {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #9ca3af;
+}
+
+.NavbarAdmin .form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.NavbarAdmin .left-pan {
+  padding-left: 7px;
+}
+
+.NavbarAdmin .left-pan i {
+  padding-left: 10px;
+}
+
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+
+@media (max-width: 1200px) {
+  .me-auto.navbar-nav {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NavbarAdmin {
+    top: -15px;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    height: 100px;
+  }
+
+  .NavbarAdmin.false {
+    top: -15px;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+  }
+  .NavbarAdmin.active {
+    top: -15px;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+  }
+
+  .NavBarAdmin_Logo {
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+  .NavBarAdmin_Logo a {
+    color: white;
+    text-decoration: none;
+  }
+  .NavBarAdmin_Logo a h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  }
+
+  .NavBarAdmin_Logo img {
+    width: 20%;
+    margin-right: 20px;
+    float: left;
+  }
+
+  .NavBarAdmin_Links {
+    width: 60%;
+  }
+  .NavBarAdmin_Links a {
+    white-space: nowrap;
+  }
+
+  .form {
+    position: relative;
+  }
+
+  .me-auto {
+    margin-right: 50px;
+  }
+
+  .form input {
+    color: white;
+    position: relative;
+    background-color: transparent;
+    opacity: 0.5;
+    border-radius: 8px;
+    height: 100%;
+    width: 120%;
+
+    padding-right: 35%;
+  }
+}
+
+.NavBarAdmin_Container_InputCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 1050px) {
+  .NavbarAdmin.false {
+    top: -10px;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+  .NavbarAdmin.active {
+    top: -10px;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+  }
+  .NavBarAdmin_Links {
+    width: 100%;
+    margin-right: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .NavBarAdmin_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+  .NavBarAdmin_Logo {
+    display: flex;
+    margin-left: 30px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .NavBarAdmin_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBarAdmin_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBarAdmin_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .NavbarAdmin.false {
+    top: -10px;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+  .NavbarAdmin.active {
+    top: -10px;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+  }
+
+  .NavBarAdmin_Links {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .NavBarAdmin_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+  .NavBarAdmin_Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .NavBarAdmin_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBarAdmin_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBarAdmin_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .NavbarAdmin.false {
+    top: -10px;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+  .NavbarAdmin.active {
+    top: -10px;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+  }
+
+  .NavBarAdmin_Links {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .NavBarAdmin_Links a {
+    color: white;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .NavBarAdmin_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+  .NavBarAdmin_Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBarAdmin_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBarAdmin_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBarAdmin_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,1138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import "../../assets/variables.scss";
+
+.me-auto.navbar-nav {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  position: fixed;
+  top: -1.5%;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+.no-flex-wrap {
+  flex-wrap: unset !important;
+}
+
+.Navbar {
+  width: 100%;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  height: 7vh;
+}
+
+.Navbar.false {
+  background-color: rgba(33, 33, 33, 0.075);
+}
+
+.Navbar.active {
+  background-color: rgba(15, 15, 15, 100);
+}
+
+.NavBar_Logo {
+  padding: 1%;
+  margin-left: 3%;
+  display: flex;
+
+  .NavBar_Brand {
+    a {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    h2 {
+      margin-top: 10px;
+      margin-left: 20px;
+
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+
+  img {
+    width: 20%;
+  }
+}
+
+.NavBar_Links {
+  margin-right: 5%;
+}
+
+.NavBar_Links a {
+  white-space: nowrap;
+}
+
+.me-auto.navbar-nav {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.NavBar_SignUp {
+  left: 1097px;
+}
+
+.NavBar_Links a {
+  margin: 3%;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.NavBar_Links p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  font-feature-settings: "salt" on;
+  margin-top: 16px;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Notificaciones NavBar */
+.NavBarLogin_ProfileName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#NavBarLogin_IconBell {
+  fill: #ffffff;
+  position: absolute;
+  margin-right: 10px;
+}
+
+#NavBarLogin_IconCircle {
+  fill: #ff0000;
+  cursor: pointer;
+  position: relative;
+  width: 10px;
+  bottom: 5px;
+  left: 10px;
+}
+
+.BellNotificationActive {
+  animation: BellShake 1s;
+  animation-iteration-count: 4;
+  cursor: pointer;
+}
+
+.BellNotificationFalse {
+  display: none;
+}
+
+.NavBar_BoxContainer_Notifications {
+  width: 300px;
+  height: 500px;
+  background: $primary;
+  border-radius: 6px;
+  overflow-y: scroll;
+}
+
+.NavBar_BoxContainer_Notifications::-webkit-scrollbar {
+  width: 7px;
+}
+
+.NavBar_BoxContainer_Notifications::-webkit-scrollbar-thumb {
+  background-color: $secondary;
+}
+
+.NavBar_Container_Notifications {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.NavBar_ContainerChildren_Notifications {
+  width: 90%;
+  margin-top: 20px;
+}
+
+@keyframes BellShake {
+  10% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(-15deg);
+  }
+
+  30% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* SEARCHBAR NAVBAR */
+/* SEARCHBAR NAVBAR */
+/* SEARCHBAR NAVBAR */
+
+.form,
+.form-control {
+  position: relative;
+  min-width: 250px;
+
+  .isValue-true {
+    opacity: 1;
+  }
+}
+
+.form input {
+  color: white !important;
+  position: relative;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  opacity: 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-right: 15%;
+  padding-right: 20%;
+  position: relative;
+
+  &::placeholder {
+    color: white !important;
+  }
+}
+
+.form input::placeholder {
+  font-weight: 500 !important;
+  color: white !important;
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 5px;
+  right: 2%;
+  color: #9ca3af;
+  z-index: 2;
+}
+
+.form span {
+  color: white !important;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+  color: white !important;
+  height: 35px;
+  text-indent: 23px;
+  border-radius: 10px;
+}
+
+.form-input:focus {
+  box-shadow: none;
+  color: white !important;
+  border: 1px solid black;
+  background-color: transparent !important;
+  opacity: 1;
+}
+
+.form-input.error-true {
+  border-color: #ff0000 !important;
+  border: 2px solid #ff0000;
+  box-shadow: none !important;
+}
+
+/* -----MODAL----- */
+/* -----MODAL----- */
+/* -----MODAL----- */
+
+.NavBar_Modal {
+  input {
+    border-radius: 12px;
+  }
+
+  button {
+    border-radius: 12px;
+  }
+
+  .modal-header {
+    display: flex;
+    padding: 1rem 1rem;
+    border-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-weight: 700 !important;
+      font-size: 1.5rem !important;
+    }
+  }
+
+  .modal-content {
+    width: 65%;
+    height: 90%;
+    padding: 5%;
+    top: 0px;
+    left: 15%;
+
+    background: linear-gradient(199.68deg, #000000 68.03%, #22a7f2 133.79%);
+    border-radius: 24px;
+
+    form {
+      width: 100%;
+      padding: 10px;
+    }
+
+    label {
+      color: white;
+
+      font-weight: 400 !important;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      color: #9ca3af;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-weight: 400;
+      color: white;
+    }
+
+    form::placeholder {
+      color: rgba(209, 213, 219, 1);
+    }
+
+    button {
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+
+  .modal-body {
+    font-family: "Roboto" !important;
+    border-bottom: 0px;
+
+    .ButtonRegister {
+      width: 100%;
+      height: 40px;
+      background: $secondary;
+      border-radius: 12px !important;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      transition: 0.3s;
+
+      &.CreateAccount {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(50px);
+
+        &:hover {
+          background: $secondary;
+        }
+      }
+    }
+
+    .ButtonRegister:disabled {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(50px);
+      color: #6b7280;
+      transition: 0.3s;
+    }
+  }
+}
+
+.CentradoBotonCerrar {
+  background: transparent;
+  color: black;
+  border: none;
+  width: 100%;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  outline: none;
+}
+
+#ButtonClose {
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#ButtonClose:focus {
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.NavBar_Modal .modal-body #ButtonClose:hover {
+  background: #9ca3af;
+}
+
+.NavBar_Modal_Body_VerificationCode button {
+  width: 100%;
+  height: 40px;
+
+  background: rgba(233, 203, 136, 1);
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  transition: 0.3s;
+
+  background: #9ca3af;
+  border-radius: 6px;
+  color: #6b7280;
+  transition: 0.3s;
+}
+
+/* MODAL FOOTER */
+/* MODAL FOOTER */
+/* MODAL FOOTER */
+
+.modal-footer {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 0px;
+  border: none !important;
+}
+
+.NavBar_Container_Modal_Footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.NavBar_Container_Modal_Footer h5 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.NavBar_Container_Modal_Footer p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.NavBar_Container_Modal_Footer p b {
+  color: $secondary;
+}
+
+.NavBar_Container_InputCode p {
+  margin-top: 10px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.NavBar_Container_InputCode p b {
+  color: $secondary;
+}
+
+.NavBar_Modal_Buttons {
+  font-weight: 400;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.NavBar_Modal_Buttons button {
+  padding: 12px 24px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 6px;
+  font-weight: 500 !important;
+  background-color: white;
+  color: #000;
+  margin: 5px;
+  outline: none;
+}
+
+.NavBar_Modal_Buttons svg {
+  margin-right: 10px;
+  margin-top: -4px;
+  top: -5px;
+  transform: scale(1.3);
+}
+
+.LogoSvgFaceebok {
+  fill: #1877f2;
+}
+
+.NavBar_Modal_Buttons button:hover {
+  background-color: white !important;
+  color: black;
+  margin: 5px;
+  outline: none;
+}
+
+/* MODAL LOG IN */
+
+.NavBar_Modal_Body_LogIn p {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+#TextForgotPassword {
+  cursor: pointer;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.NavBar_Modal_Header_LogIn h2 {
+  margin-bottom: 5%;
+}
+
+.NavBar_Modal_Body_LogIn p strong {
+  color: $secondary !important;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+/* MODAL FORGOT PASSWORD*/
+
+.NavBar_Modal_Header_ForgotPassword {
+  text-align: center;
+}
+
+.NavBar_Modal_Header_ForgotPassword {
+  padding-bottom: 130px;
+}
+
+.NavBar_Modal_Header_ForgotPassword h2 {
+  margin-bottom: 5%;
+}
+
+.NavBar_Modal_Body_ForgotPassword p strong {
+  color: rgba(233, 203, 136, 1) !important;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* MODAL VERIFICATION CODE*/
+/* MODAL VERIFICATION CODE*/
+/* MODAL VERIFICATION CODE*/
+/* MODAL VERIFICATION CODE*/
+
+.NavBar_Modal_Header_VerificationCode p {
+  text-align: center;
+}
+
+.NavBar_Modal_Header_VerificationCode h2 {
+  margin-bottom: 5%;
+}
+
+.NavBar_Modal_Body_ForgotPassword p strong {
+  color: rgba(233, 203, 136, 1) !important;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* MODAL VERIFICATION SUCCESFUL*/
+/* MODAL VERIFICATION SUCCESFUL*/
+/* MODAL VERIFICATION SUCCESFUL*/
+/* MODAL VERIFICATION SUCCESFUL*/
+
+.NavBar_Modal_Container_VerificationSuccesful p {
+  text-align: center;
+}
+
+.NavBar_Modal_Container_VerificationSuccesful h2 {
+  margin-bottom: 5%;
+}
+
+.NavBar_Modal_Body_ForgotPassword p strong {
+  color: rgba(233, 203, 136, 1) !important;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.NavBar_Modal_Body_VerificationSuccesful .ButtonSuscribe_Succesful {
+  width: 100%;
+  height: 40px;
+
+  background: rgba(233, 203, 136, 1);
+  border-radius: 6px;
+  color: rgba(107, 114, 128, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 45px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.NavBar_Modal_Body_VerificationSuccesful .ButtonNo_Succesful {
+  width: 100%;
+  height: 40px;
+
+  background: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.TextResendCode {
+  /* Paragraph/Small/Medium */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  color: rgba(156, 163, 175, 0.5);
+}
+
+.TextResendCode strong {
+  padding-left: 5px;
+  color: rgba(233, 203, 136, 1);
+  cursor: pointer;
+}
+
+.CheckMark {
+  width: 100px;
+  margin: 40px;
+}
+
+.CheckMark .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+}
+
+.CheckMark .path.circle {
+  -webkit-animation: dash 0.9s ease-in-out;
+  animation: dash 0.9s ease-in-out;
+}
+
+.CheckMark .path.line {
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+  animation: dash 0.9s 0.35s ease-in-out forwards;
+}
+
+.CheckMark .path.check {
+  stroke-dashoffset: -100;
+  -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+  animation: dash-check 0.9s 0.35s ease-in-out forwards;
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+.modal-backdrop.show {
+  width: 100%;
+  height: 100%;
+}
+
+.NavBar_Container_InputCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+@media (max-width: 1200px) {
+  .me-auto.navbar-nav {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Navbar {
+    width: 100%;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    height: 100px;
+  }
+
+  .Navbar.false {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+  }
+
+  .Navbar.active {
+    height: 100%;
+    background-color: rgba(15, 15, 15, 100);
+  }
+
+  .NavBar_Logo {
+    padding-top: 20px;
+    margin-left: 30px;
+    display: flex;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      h2 {
+        margin-top: 10px;
+        margin-left: 20px;
+
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+
+    img {
+      width: 20%;
+      margin-right: 20px;
+      float: left;
+    }
+  }
+
+  .NavBar_Links {
+    margin-right: 50px;
+  }
+
+  .NavBar_Links a {
+    white-space: nowrap;
+  }
+
+  .form {
+    position: relative;
+    margin-right: 50px;
+  }
+
+  .form input {
+    color: white;
+    position: relative;
+    background-color: transparent;
+    opacity: 0.5;
+    border-radius: 8px;
+    height: 100%;
+    padding: 8px;
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .Navbar.false {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+
+  .Navbar.active {
+    height: 100%;
+  }
+
+  .NavBar_Links {
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .NavBar_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+
+  .NavBar_Logo {
+    display: flex;
+    margin-left: 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBar_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBar_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .NavBar_Modal .modal-content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(199.68deg, #000000 68.03%, #22a7f2 133.79%);
+    backdrop-filter: blur(100px);
+    /* Note: backdrop-filter has minimal browser support */
+    left: 5%;
+    border-radius: 56px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .Navbar.false {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+
+  .Navbar.active {
+    height: 100%;
+  }
+
+  .NavBar_Links {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .NavBar_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+
+  .NavBar_Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBar_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBar_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .NavBar_Modal .modal-content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(199.68deg, #000000 68.03%, #22a7f2 133.79%);
+    backdrop-filter: blur(100px);
+    /* Note: backdrop-filter has minimal browser support */
+    left: 5%;
+    border-radius: 56px;
+  }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .Navbar.false {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.075);
+    padding-bottom: 30px;
+  }
+
+  .Navbar.active {
+    height: 100%;
+  }
+
+  .NavBar_Links {
+    width: 100%;
+
+    margin-top: 1%;
+  }
+
+  .NavBar_Links a {
+    color: white;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .NavBar_SignUp {
+    background-color: $secondary;
+    width: 50%;
+    height: 38px;
+
+    border-radius: 6px;
+  }
+
+  .NavBar_Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .NavBar_BoxContainer_Notifications {
+    width: 200px;
+
+    height: 500px;
+    background: $primary;
+    border-radius: 6px;
+  }
+
+  .NavBar_Container_Notifications {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .NavBar_ContainerChildren_Notifications {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .NavBar_Modal .modal-content {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background: rgb(33, 33, 33);
+    background: linear-gradient(199.68deg, #000000 68.03%, #22a7f2 133.79%);
+    backdrop-filter: blur(100px);
+
+    left: 5%;
+    border-radius: 56px;
+  }
+}

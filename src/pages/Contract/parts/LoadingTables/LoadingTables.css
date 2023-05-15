@@ -1,0 +1,26 @@
+.LoadingTables_Container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoadingTables_Container_Image {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.LoadingTables_Text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+
+  opacity: 0.5;
+}

@@ -1,0 +1,131 @@
+.TarpScore_Container {
+  padding-top: 10%;
+}
+
+a.TarpScore_Container {
+  min-height: 100%;
+  min-height: 80vh;
+  padding-top: 150px;
+}
+
+.TarpScore_Titles {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: rgba(182, 182, 182, 0.35);
+}
+
+.TarpScore_DivCircle {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  border: 13px solid rgba(196, 196, 196, 0.05);
+  border-radius: 50%;
+}
+
+.TarpScore_Container h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}
+
+.TarpScore_Col {
+  display: flex;
+  justify-content: center;
+}
+
+.TarpScore_Title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}
+
+.TarpScore_Title b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #6f6f6f;
+}
+
+.TarpScore_TextFooter {
+  padding-top: 50px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #6f6f6f;
+}
+
+.ModalAnalysis_ContainerScore.TarpScore h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.TarpScore_ButtonRequest {
+  width: 195px;
+  height: 44px;
+  left: 811px;
+  top: 3181px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+  color: #b6b6b6;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

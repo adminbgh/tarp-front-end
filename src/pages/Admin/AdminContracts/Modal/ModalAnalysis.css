@@ -1,0 +1,463 @@
+.Modal_Container_Analysis {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-left: 2%;
+  color: #ffffff !important;
+  word-break: break-all;
+}
+
+.Modal_Container_Analysis h3 {
+  /* Heading/H5/Bold/Desktop */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  text-align: left;
+
+  opacity: 0.5;
+}
+
+.Modal_Container_Analysis h3 strong {
+  /* Heading/H5/Bold/Desktop */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  opacity: 0.5;
+}
+
+.ModalBody_Container {
+  padding-bottom: 150px;
+}
+
+.ModalBody_Container label {
+  white-space: nowrap;
+}
+
+/* SCROLLBAR */
+
+.Modal_Container_Analysis .modal-body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.Modal_Container_Analysis .modal-body::-webkit-scrollbar-thumb {
+  background-color: #1a1a1a; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
+
+.Modal_Container_Analysis h3 {
+  padding-bottom: 36px;
+}
+
+.Modal_Container_Analysis .Container_Inputs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  padding-bottom: 16px;
+}
+
+.Modal_Container_Analysis .Container_Inputs label,
+.Modal_Container_Analysis .Container_Inputs #CheckBoxInput {
+  width: 40%;
+  margin-right: 15%;
+}
+
+.Modal_Container_Analysis img {
+  margin-right: 20px;
+}
+
+.Modal_Container_Analysis p {
+  margin: 0px;
+}
+
+.Modal_Container_Analysis .modal-content {
+  width: 90%;
+  height: 92%;
+  background: #242424;
+  border-radius: 24px;
+  color: #ffff !important;
+  overflow-y: hidden;
+  margin-left: 3%;
+}
+
+.ModalHeader {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  outline: none;
+  margin-left: 5%;
+  border: none;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.Modal_Container_Analysis .modal-header {
+  border: none;
+}
+
+.ModalAnalysis_Input {
+  box-sizing: border-box;
+  width: 102px;
+  height: 31px;
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+#ModalAnalysis_Input_RiskDescription {
+  width: 50%;
+
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+#ModalAnalysis_Text_RiskDescription {
+  width: 100%;
+}
+
+.ModalAnalysis_CheckBox {
+  background: rgba(24, 24, 24, 0.5);
+}
+
+.ModalAnalysis_Container_Table {
+  padding-bottom: 66px;
+}
+
+.ModalAnalysis_Container_Table table {
+  color: #ffffff !important;
+}
+
+/* INFORMACION DE LAS TABLAS */
+
+.ModalAnalysis_Container_Table td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.ModalAnalysis_Container_Table .td_Center {
+  display: flex;
+}
+
+.ModalAnalysis_Container_Table .SimilarContracts_DropDown {
+  box-sizing: border-box;
+  width: 105px;
+  height: 31px;
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.ModalAnalysis_Container_Table .SimilarContracts_DropDown:hover {
+  box-sizing: border-box;
+  width: 105px;
+  height: 31px;
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */
+/* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */
+/* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */ /* ADVANTIS SCORE STYLES */
+
+.ModalAnalysis_Inputs_TarpScore {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 22px;
+  padding-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  white-space: nowrap;
+}
+
+/* .ModalAnalysis_Inputs_TarpScore div {
+  padding-top: 10px;
+}
+ */
+.ModalAnalysis_Inputs_TarpScore div input {
+  box-sizing: border-box;
+
+  width: 51px;
+  height: 31px;
+
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* .ModalAnalysis_Inputs_TarpScore {
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+padding-bottom: 22px;
+} */
+
+.ModalAnalysis_ContainerScore {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 10%;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.ModalAnalysis_ContainerScore h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.ModalAnalysis_ContainerScore h4 {
+  width: 406px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.02em;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.ModalAnalysis_ContainerScore p {
+  width: 486px;
+  height: 140px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  display: flex;
+  align-items: flex-end;
+  font-feature-settings: "salt" on;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #6f6f6f;
+}
+
+.Modal_Container_Analysis button {
+  box-sizing: border-box;
+  width: 105px;
+  height: 31px;
+
+  background: rgba(24, 24, 24, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.Modal_Container_Analysis .Container_DropDown {
+  display: flex;
+}
+
+.Modal_Container_Analysis .Container_DropDown p {
+  margin-right: 20px;
+  width: 100%;
+}
+
+/* FOOTER FOOTER FOOTER */
+/* FOOTER FOOTER FOOTER */
+/* FOOTER FOOTER FOOTER */
+
+.ModalAnalysis_Container_Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal_Container_Analysis .ButtonDontSave {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+
+  width: 119px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: #222121;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+
+  font-feature-settings: "salt" on;
+}
+
+.Modal_Container_Analysis .ButtonSave {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+
+  width: 144px;
+  height: 44px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  /* Label */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  color: #b6b6b6;
+}
+
+.ModalHeader h3 {
+  width: 323px;
+  height: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.Div_InputSimilarity {
+  margin-right: 20px;
+}
+
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .ModalAnalysis_Container_Table .td_Center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Div_InputSimilarity {
+    margin-right: 0px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .Div_InputSimilarity {
+    margin-right: 0px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .ModalAnalysis_Container_Table .td_Center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Modal_Container_Analysis .Container_DropDown {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .ModalAnalysis_Container_Table .td_Center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Div_InputSimilarity {
+    margin-right: 20px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+}

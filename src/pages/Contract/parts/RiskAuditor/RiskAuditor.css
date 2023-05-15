@@ -1,0 +1,98 @@
+.RiskAuditor_Container {
+  min-height: 100%;
+  min-height: 50vh;
+  padding-top: 150px;
+}
+
+.RiskAuditor_Titles {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: rgba(182, 182, 182, 0.35);
+}
+
+.RiskAuditor_DivCircle {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+
+.RiskAuditor_Container h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.RiskAuditor_Col {
+  display: flex;
+  justify-content: center;
+}
+
+.RiskAuditor_DivCircle_Child {
+  height: 180px;
+  width: 290px;
+
+  border: 13px solid rgba(237, 0, 0, 0.891);
+  border-radius: 50%;
+}
+
+.RiskAuditor_Title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}
+
+.RiskAuditor_Title b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #6f6f6f;
+}
+
+.RiskAuditor_TextFooter {
+  padding-top: 50px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}

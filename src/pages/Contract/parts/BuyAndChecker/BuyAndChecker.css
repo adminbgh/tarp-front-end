@@ -1,0 +1,97 @@
+.BuyAndChecker_Container {
+  height: 100%;
+  min-height: 20vh;
+  padding-top: 100px;
+}
+
+.BuyAndChecker_Titles {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: rgba(182, 182, 182, 0.35);
+}
+
+.BuyAndChecker_Texts {
+  padding-top: 40px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  /* Generic/White */
+
+  color: #ffffff;
+}
+
+.BuyAndChecker_Title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}
+
+.BuyAndChecker_Title b {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+  color: #6f6f6f;
+}
+
+.BuyAndChecker_ApprovedDot {
+  transform: scale(2);
+}
+
+.BuyAndChecker_ApprovedDot.danger {
+  color: #ff0000;
+  width: 20px;
+  height: 30px;
+  transform: scale(2);
+}
+
+.BuyAndChecker_ApprovedDot.warning {
+  color: #ffff00;
+  width: 20px;
+  height: 30px;
+}
+
+.BuyAndChecker_ApprovedDot.success {
+  color: #008000;
+  width: 20px;
+  height: 30px;
+}
+
+.BuyAndChecker_ApprovedDot.buy {
+  color: #43b8ef;
+  width: 20px;
+  height: 30px;
+}
+.BuyAndChecker_ApprovedDot.sell {
+  color: #d73340;
+  width: 20px;
+  height: 30px;
+}

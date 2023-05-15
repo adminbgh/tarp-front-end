@@ -1,0 +1,57 @@
+.offcanvas {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(50px);
+  color: white;
+  text-align: end;
+  font-family: "Roboto";
+
+  .containerOffCanvas {
+    width: 80%;
+
+    .containerFirstItems {
+      margin-bottom: 50%;
+    }
+
+    h2 {
+      font-weight: 800;
+      font-family: "Roboto";
+      margin-top: 20%;
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        color: #22a7f2;
+      }
+    }
+
+    h3 {
+      margin-top: 10%;
+      cursor: pointer;
+      font-weight: 300;
+
+      &:hover {
+        color: #22a7f2;
+      }
+    }
+
+    .containerSocials {
+      p {
+        margin-top: 20%;
+        color: #ffffff;
+        opacity: 0.25;
+      }
+
+      .containerSocialLinks {
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        opacity: 0.5;
+        margin-top: 25%;
+        img {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

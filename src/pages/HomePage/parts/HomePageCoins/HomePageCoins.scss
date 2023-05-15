@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+@import "../../../../assets/variables.scss";
+/* NOMBRES DE TABLAS */
+
+th {
+  font-weight: 600;
+  color: white;
+  transition: 5s;
+}
+
+/* ESTILOS DE BORDES */
+
+tr {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* INFORMACION DE LAS TABLAS */
+
+.HomePageCoins_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.HomePageCoins_Container td img {
+  margin-right: 10px;
+}
+
+.HomePageCoins_Container td div {
+  display: flex;
+}
+
+.HomePageCoins_Container .progress {
+  margin-top: 8px;
+  width: 35%;
+  height: 5px;
+  background-color: #e9ecef30;
+}
+
+.HomePageCoins_Container .ProgressBar_Center {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MarketCap_Div {
+  width: 30%;
+}
+
+.HomePageCoins_Container .td_Center {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.HomePageCoins_Container .td_Negative {
+  color: red;
+}
+
+.HomePageCoins_Container .td_Positive {
+  color: green;
+}
+
+/* ----PAGINADO---- */
+/* ----PAGINADO---- */
+/* ----PAGINADO---- */
+
+.HomePageCoins_Row__Pagination li {
+  margin-right: 30px;
+}
+
+.HomePageCoins_Row__Pagination p {
+  color: white;
+}
+
+.HomePageCoins_Row__Pagination a:hover {
+  box-shadow: 1px 2px 77px -1px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 1px 2px 77px -1px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 1px 2px 77px -1px rgba(0, 0, 0, 0.75) inset;
+  color: white;
+  border-radius: 6px;
+}
+
+.HomePageCoins_Row__Pagination a {
+  background-color: transparent;
+  border: none;
+
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: white;
+}
+.HomePageCoins_Row__Pagination a:focus {
+  background-color: $secondary;
+  border-radius: 6px;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  background-color: $secondary !important;
+  border-radius: 6px;
+  color: black;
+}
+
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+
+/* items */
+
+.Footer_Centrado_Dropdown {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.show > .btn-success.dropdown-toggle {
+  color: white;
+  background: #2c2c2c;
+  border-radius: 6px;
+  box-shadow: none !important;
+}
+
+.show > .btn-success.dropdown-toggle:focus {
+  color: white;
+  background: #2c2c2c;
+  border-radius: 6px;
+  box-shadow: none !important;
+}
+
+.Footer_Centrado_Dropdown a {
+  color: black;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .HomePageCoins_Container {
+    height: 100%;
+    width: 100vw;
+    padding-top: 30px;
+  }
+
+  .HomePageCoins_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .HomePageCoins_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .HomePageCoins_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}

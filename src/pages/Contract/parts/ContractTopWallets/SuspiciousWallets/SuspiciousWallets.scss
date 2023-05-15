@@ -1,0 +1,110 @@
+@import "../../../../../assets/variables.scss";
+
+.SuspiciousWallets_Container_Search {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.SuspiciousWallets_ContainerCenter_Search {
+  display: flex;
+}
+.SuspiciousWallets_ContainerCenter_Search button {
+  width: 40%;
+  height: 40px;
+  color: #6b7280;
+  background: #9ca3af;
+  padding: 5px;
+  border-radius: 7px;
+  white-space: nowrap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 40px;
+  border: none;
+  transition: 0.3s;
+}
+
+.TableContainer_Container {
+  margin-top: 30px;
+  animation: TableOpacity 0.5s;
+}
+
+@keyframes TableOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.SuspiciousWallets_ContainerCenter_Search .Enable {
+  width: 40%;
+  height: 40px;
+  color: $primary;
+  background: #22a7f2;
+
+  border-radius: 7px;
+  white-space: nowrap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 40px;
+  border: none;
+}
+
+.SuspiciousWallets_DetailsButton {
+  cursor: pointer;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 600.98px) {
+  .SuspiciousWallets_Container {
+    height: 100%;
+
+    padding-top: 30px;
+  }
+
+  .SuspiciousWallets_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .Contract_Col_Container_ButtonsClick {
+    padding-top: 50px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .SuspiciousWallets_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .SuspiciousWallets_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .Contract_Col_Container_ButtonsClick {
+    padding-top: 50px;
+  }
+}

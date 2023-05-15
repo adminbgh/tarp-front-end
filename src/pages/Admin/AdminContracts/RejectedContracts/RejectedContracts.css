@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+
+.RejectedContracts_Container {
+  background: #181818;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.RejectedContracts_Container p {
+  margin: 0px;
+}
+
+.RejectedContracts_Container_Table {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  text-align: left;
+}
+
+.RejectedContracts_Container_Table table {
+  width: 100%;
+  height: 100%;
+}
+
+.RejectedContractsTable_Td_ButtonCheck button {
+  width: 43px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NOMBRES DE TABLAS */
+.RejectedContracts_Container_Table th {
+  border: none;
+}
+
+/* INFORMACION DE LAS TABLAS */
+
+.RejectedContracts_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.RejectedContracts_Container button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  color: #b6b6b6;
+}
+
+.RejectedContracts_Container td img {
+  margin-right: 10px;
+}
+
+.RejectedContracts_Container td div {
+  display: flex;
+}
+
+.RejectedContracts_Container .progress {
+  margin-top: 8px;
+  width: 35%;
+  height: 5px;
+  background-color: #e9ecef30;
+}
+
+.RejectedContracts_Container .ProgressBar_Center {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.RejectedContracts_Container .ProgressBar_Center p {
+  height: 30px;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.MarketCap_Div {
+  width: 30%;
+}
+
+.RejectedContracts_Container .td_Center {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.RejectedContracts_Container .td_Negative {
+  color: red;
+}
+
+.RejectedContracts_Container .td_Positive {
+  color: green;
+}
+
+.RejectedContracts_Container .LastContracts_ApprovedDot {
+  transform: scale(2);
+}
+
+.RejectedContracts_Container .LastContracts_ApprovedDot.danger {
+  color: #ff0000;
+  width: 20px;
+  height: 30px;
+  transform: scale(2);
+}
+
+.RejectedContracts_Container .LastContracts_ApprovedDot.warning {
+  color: #ffff00;
+  width: 20px;
+  height: 30px;
+}
+
+.RejectedContracts_Container .LastContracts_ApprovedDot.success {
+  color: #008000;
+  width: 20px;
+  height: 30px;
+}
+
+.RejectedContracts_Container_Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.RejectedContracts_Container_Buttons button {
+  margin-left: 17px;
+  width: 119px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.RejectedContracts_Container_Buttons button:focus {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: #222121;
+}
+
+.RejectedContracts_Container_Buttons {
+  display: flex;
+}
+
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .RejectedContracts_Container {
+    height: 100%;
+    width: 100vw;
+    padding-top: 30px;
+  }
+
+  .RejectedContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .RejectedContracts_Container_Buttons {
+    display: inline;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .RejectedContracts_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .RejectedContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+  .RejectedContracts_Row_ContainerTable {
+    overflow-x: scroll;
+  }
+}

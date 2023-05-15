@@ -1,0 +1,109 @@
+@import "../../../assets/variables.scss";
+
+.button {
+  background-color: $secondary;
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  border: none;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 0 1vw;
+  transition: all 0.3s;
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+    background-color: $secondary;
+
+    span {
+      color: white;
+    }
+  }
+
+  span {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.hidden-true {
+  display: none;
+}
+
+.button-loading-true {
+  &:hover {
+    cursor: default;
+  }
+
+  img {
+    margin-top: unset;
+  }
+}
+
+.button-disabled-true {
+  background: #9ca3af;
+  border-radius: 6px;
+  color: #6b7280;
+  border-radius: 12px;
+
+  &:hover {
+    cursor: default;
+    background: #9ca3af;
+
+    span {
+      color: #d5d5ea;
+    }
+  }
+
+  span {
+    color: #d5d5ea;
+  }
+
+  .basicSpinner {
+    margin-top: unset !important;
+  }
+}
+
+.secondary-button-true {
+  background-color: $gray;
+  span {
+    color: black;
+  }
+
+  &:hover {
+    span {
+      color: black;
+    }
+    background-color: $gray;
+  }
+}
+
+.rounder-true {
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  .button {
+    font-size: 1.5rem;
+  }
+}
+
+.button-outlined-true {
+  background-color: transparent;
+  border: 2px solid $secondary;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $secondary;
+  }
+
+  span {
+    font-weight: 600;
+    color: $secondary;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

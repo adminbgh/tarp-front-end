@@ -1,0 +1,62 @@
+.ModalTextCompare .modal-content {
+  width: 70%;
+  height: 90%;
+  padding: 3%;
+  top: 0px;
+  left: 15%;
+
+  background: #212121;
+
+  border-radius: 56px;
+}
+
+.ModalTextCompare label {
+  color: #ffffff;
+}
+
+.ModalTextCompare input,
+.ModalTextCompare textarea,
+.ModalTextCompare input:focus,
+.ModalTextCompare textarea:focus,
+.ModalTextCompare textarea:active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #b6b6b6;
+  border: none;
+}
+
+.ModalTextCompare #ContractAddressSecurity {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #5097d5;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.ModalTextCompare_ButtonSubmit {
+  width: 179px;
+  height: 44px;
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.TextTarea_ModalTextCompare,
+#TextTarea_ModalTextCompare:hover,
+#TextTarea_ModalTextCompar:focus,
+#TextTarea_ModalTextCompar:focus {
+  outline: none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+}

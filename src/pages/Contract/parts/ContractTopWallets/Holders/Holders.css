@@ -1,0 +1,199 @@
+.Holders_Container_Table {
+  padding-top: 30px;
+  white-space: nowrap;
+  overflow-x: auto;
+  animation: TableOpacity 1s;
+}
+
+.Holders_TxnHashLink {
+  color: #5097d5;
+}
+
+@keyframes TableOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Holders_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6;
+}
+
+/* SVG CHECKBOX */ /* SVG CHECKBOX */ /* SVG CHECKBOX */
+/* SVG CHECKBOX */ /* SVG CHECKBOX */ /* SVG CHECKBOX */
+/* SVG CHECKBOX */ /* SVG CHECKBOX */ /* SVG CHECKBOX */
+
+/* Progress */
+
+.TableContainer_Container .progress {
+  margin-top: 8px;
+  width: 80%;
+  height: 5px;
+  background: rgba(196, 196, 196, 0.25);
+}
+
+.TableContainer_Container .progress-bar {
+  background: #b6b6b6;
+}
+
+.TableContainer_Container .ProgressBar_Center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.WalletID {
+  /* Paragraph/Small/Regular */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #5097d5;
+  cursor: pointer;
+}
+
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+
+.Holders_Container .dropdown button {
+  width: 100%;
+  height: 0px;
+  background-color: transparent;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  padding-bottom: 15px !important;
+
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: white;
+}
+
+.TableContainer_Container {
+  background-color: transparent !important;
+  color: #b6b6b6 !important;
+  animation: TableOpacityHolders 0.5s;
+}
+
+@keyframes TableOpacityHolders {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ValueTrue {
+  /* Paragraph/XSmall/Semibold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  /* Default/SystemGreen/Light */
+
+  color: #34c759;
+
+  background: rgba(52, 199, 89, 0.05);
+  border: 1px solid rgba(52, 199, 89, 0.25);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.ValueFalse {
+  /* Paragraph/XSmall/Semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+  /* Default/SystemGreen/Light */
+
+  color: #ff3b30;
+
+  background: #440905;
+  border: 1px solid #ff3b30;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.Holders_DetailsButton {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 600.98px) {
+  .Holders_Container {
+    height: 100%;
+
+    padding-top: 30px;
+  }
+
+  .ContractTopWallets_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .Contract_Col_Container_ButtonsClick {
+    padding-top: 50px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .Holders_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .ContractTopWallets_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .Contract_Col_Container_ButtonsClick {
+    padding-top: 50px;
+  }
+}

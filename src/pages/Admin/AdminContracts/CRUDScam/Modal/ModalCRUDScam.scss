@@ -1,0 +1,79 @@
+.ModalCRUDScam .modal-content {
+  width: 70%;
+  height: 90%;
+  padding: 3%;
+  top: 0px;
+  left: 15%;
+
+  background: #212121;
+
+  border-radius: 56px;
+
+  .containerNetwork {
+    justify-content: flex-start;
+    h4 {
+      color: white;
+      font-size: 1rem;
+      margin-right: 5%;
+    }
+    span {
+      width: 20%;
+      height: 44px;
+      color: white;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+    }
+  }
+}
+
+.ModalCRUDScam label {
+  color: #ffffff;
+}
+
+.ModalCRUDScam input,
+.ModalCRUDScam textarea,
+.ModalCRUDScam input:focus,
+.ModalCRUDScam textarea:focus,
+.ModalCRUDScam textarea:active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #b6b6b6;
+  border: none;
+}
+
+.ModalCRUDScam #ContractAddressSecurity {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #5097d5;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.ModalCRUDScam_ButtonSubmit {
+  width: 40%;
+  height: 44px;
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.TextTarea_ModalCRUDScam,
+#TextTarea_ModalCRUDScam:hover,
+#TextTarea_ModalTextCompar:focus,
+#TextTarea_ModalTextCompar:focus {
+  outline: none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+}

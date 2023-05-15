@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+@import ".../../../../../../assets//variables.scss";
+
+.ApprovedContracts_Container {
+  background: $primary;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  .MuiFormControl-root {
+    background: #464545a2;
+    border-radius: 15px;
+
+    label {
+      color: #ffffff !important;
+      opacity: 0.5;
+    }
+    input {
+      color: #ffffff !important;
+      border-radius: 15px;
+    }
+  }
+}
+
+.ApprovedContracts_Container p {
+  margin: 0px;
+}
+
+.ApprovedContracts_Container_Table {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  text-align: left;
+}
+
+.ApprovedContracts_Container_Table table {
+  width: 100%;
+  height: 100%;
+}
+
+.ApprovedContractsTable_Td_ButtonCheck button {
+  width: 43px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NOMBRES DE TABLAS */
+.ApprovedContracts_Container_Table th {
+  border: none;
+}
+
+/* INFORMACION DE LAS TABLAS */
+
+.ApprovedContracts_Container td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6 !important;
+  text-align: left;
+}
+
+.ApprovedContracts_Container button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  color: #b6b6b6;
+}
+
+.ApprovedContracts_Container td img {
+  margin-right: 10px;
+}
+
+.ApprovedContracts_Container td div {
+  display: flex;
+}
+
+.ApprovedContracts_Container .progress {
+  margin-top: 8px;
+  width: 35%;
+  height: 5px;
+  background-color: #e9ecef30;
+}
+
+.ApprovedContracts_Container .ProgressBar_Center {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.ApprovedContracts_Container .ProgressBar_Center p {
+  height: 30px;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+.MarketCap_Div {
+  width: 30%;
+}
+
+.ApprovedContracts_Container .td_Center {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.ApprovedContracts_Container .td_Negative {
+  color: red;
+}
+
+.ApprovedContracts_Container .td_Positive {
+  color: green;
+}
+
+.ApprovedContracts_Container .LastContracts_ApprovedDot {
+  transform: scale(2);
+}
+
+.ApprovedContracts_Container .LastContracts_ApprovedDot.danger {
+  color: #ff0000;
+  width: 20px;
+  height: 30px;
+  transform: scale(2);
+}
+
+.ApprovedContracts_Container .LastContracts_ApprovedDot.warning {
+  color: #ffff00;
+  width: 20px;
+  height: 30px;
+}
+
+.ApprovedContracts_Container .LastContracts_ApprovedDot.success {
+  color: #008000;
+  width: 20px;
+  height: 30px;
+}
+
+.ApprovedContracts_Container_Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ApprovedContracts_Container_Buttons button {
+  margin-left: 17px;
+  width: 119px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.ApprovedContracts_Container_Buttons button:focus {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  color: #222121;
+}
+
+.ApprovedContracts_Container_Buttons {
+  display: flex;
+}
+
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */ /* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .ApprovedContracts_Container {
+    height: 100%;
+    width: 100vw;
+    padding-top: 30px;
+  }
+
+  .ApprovedContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .ApprovedContracts_Container_Buttons {
+    display: inline;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .ApprovedContracts_Container {
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .ApprovedContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}

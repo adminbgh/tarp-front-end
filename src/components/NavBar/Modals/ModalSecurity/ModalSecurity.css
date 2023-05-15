@@ -1,0 +1,41 @@
+.Security_Modal .modal-content {
+  width: 70%;
+  height: 90%;
+  padding: 3%;
+  top: 0px;
+  left: 15%;
+
+  background: #212121;
+
+  border-radius: 56px;
+}
+
+.Security_Modal label {
+  color: #ffffff;
+}
+
+.Security_Modal input,
+.Security_Modal textarea,
+.Security_Modal input:focus,
+.Security_Modal textarea:focus,
+.Security_Modal textarea:active {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #b6b6b6;
+  border: none;
+}
+
+.Security_Modal #ContractAddressSecurity {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #5097d5;
+}
+
+.ModalSecurity_ButtonSubmit {
+  width: 179px;
+  height: 44px;
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}

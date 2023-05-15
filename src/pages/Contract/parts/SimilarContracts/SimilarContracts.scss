@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+@import "../../../../assets/variables.scss";
+
+.SimilarContracts_Container {
+  height: 100%;
+  padding-top: 100px;
+
+  button {
+    font-weight: 500;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(46, 44, 44, 0.945);
+    border: rgba(255, 255, 255, 0.1) 1px solid !important;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+  }
+
+  th {
+    font-weight: 600;
+    color: white;
+  }
+
+  .Th_SimilarContractName {
+    display: flex;
+  }
+
+  /* ESTILOS DE BORDES */
+
+  tr {
+    border-color: rgba(255, 255, 255, 0.05);
+    text-align: start;
+  }
+
+  /* INFORMACION DE LAS TABLAS */
+
+  td {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #b6b6b6 !important;
+    text-align: start;
+    p {
+      text-align: start;
+    }
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .ProgressBar_Center {
+    p {
+      margin-right: 10px;
+    }
+  }
+
+  .SimilarContracts_Td_ProyectName {
+    display: flex;
+  }
+
+  .BuyAndChecker_ApprovedDot {
+    transform: scale(2);
+  }
+
+  .BuyAndChecker_ApprovedDot.danger {
+    color: #ff0000;
+    width: 20px;
+    height: 30px;
+    transform: scale(2);
+  }
+
+  .BuyAndChecker_ApprovedDot.warning {
+    color: #ffff00;
+    width: 20px;
+    height: 30px;
+  }
+
+  .BuyAndChecker_ApprovedDot.success {
+    color: #008000;
+    width: 20px;
+    height: 30px;
+  }
+
+  .TextShowReport {
+    color: #5097d5;
+    text-decoration-line: underline;
+  }
+}
+
+.SimilarContracts_Container_Table {
+  padding-top: 50px;
+}
+
+.SimilarContracts_Td_Button {
+  margin: 0px;
+  width: 80%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.SimilarContracts_Container 
+
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+/* ---DROPDOWN--- */
+
+.show > .btn-success.dropdown-toggle {
+  color: white;
+  background: #2c2c2c;
+  border-radius: 6px;
+  box-shadow: none !important;
+}
+
+.show > .btn-success.dropdown-toggle:focus {
+  color: white;
+  background: #2c2c2c;
+  border-radius: 6px;
+  box-shadow: none !important;
+}
+
+.Footer_Centrado_Dropdown a {
+  color: black;
+}
+
+.SimilarContract_Text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  font-feature-settings: "salt" on;
+  color: #ffffff;
+}
+
+.SimilarContract_Text b {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+  color: #6f6f6f;
+}
+
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+/* ----MEDIA QUERY---- */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .SimilarContracts_Container {
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  .SimilarContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .SimilarContracts_Container {
+    height: 100%;
+
+    padding-top: 30px;
+  }
+
+  .SimilarContracts_Row__Pagination {
+    padding-top: 0%;
+    height: 100%;
+  }
+}

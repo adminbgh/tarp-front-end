@@ -1,0 +1,41 @@
+@import "../../../assets//variables.scss";
+
+.containerScore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+  border-radius: 4px;
+  width: 13%;
+  height: 30px;
+  min-width: 100px;
+  font-weight: 400;
+  justify-content: center;
+
+  .flex {
+    width: 100%;
+  }
+
+  span {
+    margin-left: 3%;
+  }
+  &.Secure {
+    background: rgba(52, 199, 89, 0.1);
+    border: 1px solid rgba(52, 199, 89, 0.1);
+    color: #34c759;
+  }
+
+  &.Medium {
+    background: rgba(255, 149, 0, 0.1);
+    border: 1px solid rgba(255, 149, 0, 0.25);
+    color: #ff9500;
+  }
+
+  &.Danger {
+    background: rgba(255, 59, 48, 0.1);
+    border: 1px solid rgba(255, 59, 48, 0.25);
+    color: #ff3b30;
+  }
+}

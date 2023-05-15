@@ -1,0 +1,883 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Scheherazade+New&display=swap");
+@import "../../assets/variables.scss";
+
+.Contract_Container {
+  height: 100%;
+  width: 100vw;
+
+  background: $primary;
+  padding-top: 150px;
+  color: white;
+}
+
+.Contract_Row__Image img {
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* formateo las etiquetas "P" con margin 0 */
+.Contract_Container p {
+  margin: 0px;
+}
+/*  */
+
+.Contract_Row__Infomation {
+  padding-top: 50px;
+}
+
+.Contract_Row__Infomation img {
+  width: 50px;
+}
+
+.Contract_InformacionLogo {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.Contract_Col_InformacionLogo h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 50%;
+}
+
+#NameCrypto {
+  /* Heading/H2/Extrabold/Desktop */
+  display: block;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+  margin-right: 30px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  padding-left: -20px;
+  /* Generic/White */
+
+  color: #ffffff;
+
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+#IconLink {
+  margin-right: 5px;
+}
+
+.Contract_Information_Button_DNL {
+  display: flex;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  color: #b6b6b6;
+  border-radius: 2px;
+  padding: 5px 15px 5px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.InformacionLogo_Imagen_Container img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+/* BOTONES ABAJO DEL NOMBRE DE LA CRIPTO */
+
+.Contract_Information_Button_Container {
+  padding-top: 20px;
+}
+
+.Stack_Buttons {
+  display: flex;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  color: #b6b6b6;
+  border-radius: 2px;
+  padding: 5px 10px 5px 10px;
+}
+.Stack_Buttons.ContractId {
+  cursor: pointer;
+}
+
+.Stack_Buttons p {
+  margin: 0px;
+  width: 100%;
+}
+
+#LinkCrypto {
+  /* Paragraph/XSmall/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+  color: #b6b6b6;
+}
+
+/* Precios Criptos */
+
+.ContainerPriceCrypto {
+  margin-right: 25px;
+}
+
+#PriceCrypto {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.Container_Col_PriceCrypto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 10px;
+}
+.Container_Col_PriceCrypto p {
+  /* Paragraph/XSmall/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #b6b6b6;
+  width: 100%;
+}
+
+.Contract_Information_PorcentajeNegative {
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+.Contract_Information_PorcentajePositive {
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+
+.Contract_Information_PorcentajeNegative {
+  background: rgba(255, 59, 48, 0.05);
+  border: 1px solid rgba(255, 59, 48, 0.25);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.Contract_Information_PorcentajePositive {
+  background: rgba(39, 235, 180, 0.147);
+  border: 1px solid rgba(48, 255, 72, 0.25);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.Contract_Information_PorcentajeNegative p {
+  /* Paragraph/XSmall/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  /* Default/SystemRed/Light */
+
+  color: #ff3b30;
+}
+.Contract_Information_PorcentajePositive p {
+  /* Paragraph/XSmall/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "salt" on;
+
+  /* Default/SystemRed/Light */
+
+  color: #1dd800;
+}
+
+/* Col 3 */
+
+.Container_Col_PriceCryptoTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  margin-top: 7px;
+}
+
+.Container_Col_PriceCryptoTwo .ContainerPriceCrypto {
+  margin: 0;
+}
+
+.Container_Col_PriceCryptoTwo p {
+  /* Paragraph/XSmall/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #b6b6b6;
+}
+
+/* Container_Row_ContratID*/
+
+.Container_Row_ContratIDS {
+  /* Paragraph/XSmall/Regular */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: "salt" on;
+
+  color: #b6b6b6;
+  margin-top: 50px;
+
+  .Stack_Buttons {
+    svg {
+      margin-left: 15px;
+    }
+  }
+
+  .containerTextHeader {
+    padding-top: 3%;
+    text-align: start;
+    z-index: 2;
+    p {
+      font-weight: 700;
+      font-size: 98%;
+      line-height: 180%;
+      width: 50%;
+
+      span {
+        cursor: pointer;
+        color: $secondary;
+        margin-left: 1.5%;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+.StackSocialButtons {
+  display: flex;
+}
+
+.StackSocialButtons {
+  display: flex;
+}
+
+.SocialMediaButtons {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.SocialMediaButtons a {
+  height: 100%;
+  text-decoration: none;
+  color: #716663;
+}
+
+.SocialMediaButtons svg {
+  width: 25px;
+  height: 30px;
+
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* -----STATISTICS---- */
+/* -----STATISTICS---- */
+/* -----STATISTICS---- */
+
+.Contract_Container_Statistics {
+  position: relative;
+  padding-top: 30px;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  /* Scroll de Statistics */
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #22a7f2;
+    border-radius: 100px;
+  }
+}
+
+.Contract_ContainerInfo {
+  font-weight: 600;
+  min-width: 350px;
+  width: 100%;
+  height: 170px;
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  box-sizing: border-box;
+  border-radius: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 20px 0px;
+
+  &:hover {
+    background: rgba(34, 167, 242, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+  }
+}
+
+.Contract_ContainerInfo_True_Click {
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  box-sizing: border-box;
+  border-radius: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 100%;
+  min-width: 350px;
+  height: 170px;
+  margin: 20px 0px;
+  animation: coloContainerInfo_True 2.5s;
+}
+
+@keyframes coloContainerInfo_True {
+  from {
+    background: rgba(255, 255, 255, 0.293);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+  }
+  to {
+    background-blend-mode: overlay;
+    border-radius: 16px;
+  }
+}
+
+.Contract_ContainerInfo_True {
+  font-weight: 600;
+  min-width: 350px;
+  width: 100%;
+  height: 170px;
+  margin: 20px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  box-sizing: border-box;
+  border-radius: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Contract_ContainerInfo_True.Lastest {
+  font-weight: 600;
+  min-width: 350px;
+  width: 100%;
+  height: 170px;
+  margin: 20px 0px 0px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  box-sizing: border-box;
+  border-radius: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Contract_ContainerInfo_True:hover {
+  background: rgba(255, 255, 255, 0.293);
+  background-blend-mode: overlay;
+  border-radius: 16px;
+}
+
+.Contract_ContainerInfo:hover > .Contract_Statistics_Title svg {
+  opacity: 1 !important;
+}
+
+.Contract_Col_Statistics {
+  padding-right: 20%;
+}
+
+.Contract_Statistics_Title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+
+  font-weight: 400 !important;
+  align-items: center;
+}
+
+.Contract_Statistics_Title h4 {
+  font-weight: 400 !important;
+  font-size: 18px;
+  font-feature-settings: "salt" on;
+}
+
+.Contract_Statistics_Info h2 {
+  display: flex;
+  margin: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Contract_Statistics_Title svg {
+  opacity: 0.3 !important;
+  transition: 0.5s;
+}
+
+.Contract_Statistics_Text {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  margin: 15px;
+  opacity: 0.5;
+  justify-content: space-between;
+}
+
+.Contract_NameLink {
+  color: rgba(80, 151, 213, 1);
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Contract_Container_Col_StatisticsPlus {
+  display: flex;
+}
+
+/* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */
+/* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */
+/* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */ /* ---TOPS DEXS--- */
+/* -------|------- */ /* -------|------- */ /* -------|------- */
+/* -------v------- */ /* -------v------- */ /* -------v------- */
+
+.Contract_ContainerInfo_TopDex {
+  width: 100%;
+  height: 170px;
+
+  font-weight: 600;
+  margin-top: 57px;
+  min-width: 350px;
+  border: 1px solid rgba(255, 255, 255, 0.275);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  transition: 0.5s;
+  margin: 20px 20px 0px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 1s;
+  animation: CardsTopDex 1s;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.Container_ContractText_TotalLiquidity_TopDex p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+@keyframes CardsTopDex {
+  from {
+    left: -25%;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.Contract_Statistics_Title_TopDex {
+  display: flex;
+  /* margin: 15px 15px 0px; */
+
+  font-weight: 400 !important;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+
+  h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: "salt" on;
+
+    color: #ffffff;
+  }
+}
+
+/* Nombre y contratoID */
+.ContractText_ContractID_TopDex {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  font-feature-settings: "salt" on;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Color Azul para el contrato */
+.ContractText_ContractID_TopDex_ColorBlue {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  font-feature-settings: "salt" on;
+  color: #4a769d;
+  padding-left: 5px;
+}
+
+.ContractText_TotalLiquidity_TopDex {
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "salt" on;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ContractText_TotalLiquidity_TopDex_ColorGreen {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "salt" on;
+
+  /* Default/SystemGreen/Light */
+
+  color: #34c759;
+}
+
+.ContractText_TotalLiquidity_TopDex_ColorRed {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "salt" on;
+
+  /* Default/SystemGreen/Light */
+
+  color: red;
+}
+
+.Contract_Statistics_Text_TopDex {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  margin: 15px;
+  opacity: 0.5;
+  justify-content: space-between;
+}
+
+.ContractText_HolderText_TopDex {
+  padding-top: 5px;
+  /* Paragraph/Small/Semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  font-feature-settings: "salt" on;
+
+  color: #ffffff;
+}
+
+.ContractText_Container_TotalLiquidity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+/* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */ /* -----MEDIA QUERY----- */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .Contract_ContainerInfo_True_Click {
+    font-weight: 600;
+
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+    min-width: 350px;
+    height: 170px;
+    margin: 20px 0px;
+  }
+  .Contract_Information_Button_Container {
+    padding-bottom: 30px;
+  }
+  .Container_Col_PriceCrypto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 10px;
+    width: 40%;
+  }
+  .Container_Col_PriceCryptoTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 7px;
+    width: 40%;
+  }
+
+  .Contract_ContainerInfo {
+    font-weight: 600;
+    margin-top: 57px;
+    width: 100%;
+    min-width: 0px;
+    height: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px 0px;
+  }
+  .Contract_Statistics_Info h2 {
+    display: flex;
+    margin: 15px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 44px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .Container_Row_ContratIDS {
+    .containerTextHeader {
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  .Contract_ContainerInfo {
+    font-weight: 600;
+    margin-top: 57px;
+
+    width: 100%;
+    min-width: 0px;
+    height: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px 0px;
+  }
+
+  .Contract_Statistics_Text p {
+    position: relative;
+    top: -20px;
+    font-size: 1rem !important;
+    margin-left: 0px;
+    opacity: 1;
+  }
+  .Contract_ContainerInfo_True_Click {
+    z-index: 3;
+    min-width: 350px;
+    width: 100%;
+    height: 170px;
+
+    margin: 20px 0px;
+
+    font-weight: 600;
+    cursor: pointer;
+
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+  }
+
+  .Contract_ContainerInfo_True {
+    min-width: 350px;
+    width: 100%;
+    height: 170px;
+    margin-left: 0px;
+
+    font-weight: 600;
+    cursor: pointer;
+
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+  }
+  .Contract_Statistics_Info h2 {
+    display: flex;
+    margin: 15px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .Contract_ContainerInfo {
+    font-weight: 600;
+    margin-top: 57px;
+
+    width: 100%;
+    min-width: 0px;
+    height: 170px;
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px 0px;
+  }
+  .Contract_Statistics_Title h4 {
+    font-size: 2rem;
+    margin: 0px;
+  }
+
+  .Contract_Statistics_Text p {
+    position: relative;
+    top: -20px;
+    font-size: 1rem !important;
+    margin-left: 0px;
+    opacity: 1;
+  }
+  .Contract_Statistics_Info h2 {
+    display: flex;
+    margin: 15px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+}
